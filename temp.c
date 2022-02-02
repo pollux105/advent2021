@@ -6,11 +6,16 @@
 
 int main(){
 
-    int a = 15;
-    int b = 20;
+    long long a = 2;
+    
+    for (int i = 0;i<32;i++)
+    {
+        a = a*2;
+        printf("%lld\n",a);
+    }
     
 
-    printf("%d\n",a-b);
+    
     return 0;
 }
 

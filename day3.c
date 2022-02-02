@@ -129,7 +129,7 @@ struct List
     int nbnode;
 };
 
-List *initialize(int first_number)
+List * initialize(int first_number)
 {
     List *list = malloc(sizeof(*list));
     node *node = malloc(sizeof(*node));
